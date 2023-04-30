@@ -5,10 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Loginform() {
   return (
     <div className='wrapper bg-dark d-flex align-items-center justify-content-center w-100'>
-      <div className="login ">
+      <div className="login">
         <h2 className='mb-3'>Login Form</h2>
         <form>
-        <div className='form-group'>
+        <div className='form-group' >
           <label htmlFor='email'>Email Address</label>
           <input type='email'></input>
         </div>
